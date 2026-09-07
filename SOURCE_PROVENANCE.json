@@ -1,0 +1,197 @@
+{
+  "edition": "public-source-2026-09-07",
+  "source_snapshot": "d3bb5bfd27fcf52a53aa48264009e480d78fa3b3",
+  "scope": "Selected supplementary Python and layout files only. Public reading pages are authored adaptations; no empirical observations or retained output bundles are included.",
+  "source_files": [
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/_vendor/__init__.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/_vendor/__init__.py",
+      "source_sha256": "509deafd2f479203fe5c291be802c3a7078420732922fe3e58a44601d70bd865",
+      "public_sha256": "509deafd2f479203fe5c291be802c3a7078420732922fe3e58a44601d70bd865",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/_vendor/dashboard_data.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/_vendor/dashboard_data.py",
+      "source_sha256": "83cd2fe7d954ff309dfe0d5765bd273c36a1b511a26d461e11dd575630735e2b",
+      "public_sha256": "83cd2fe7d954ff309dfe0d5765bd273c36a1b511a26d461e11dd575630735e2b",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/_vendor/thesis_figure_style.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/_vendor/thesis_figure_style.py",
+      "source_sha256": "2333bbd4ada16cca940da16a1a7d40b05afb581f552049f702953fb6a150413d",
+      "public_sha256": "2333bbd4ada16cca940da16a1a7d40b05afb581f552049f702953fb6a150413d",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/common.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/common.py",
+      "source_sha256": "77beaf88b66d7ff473b3196dded280640a6309cb112d8b157a1d3f8ca7d1a485",
+      "public_sha256": "77beaf88b66d7ff473b3196dded280640a6309cb112d8b157a1d3f8ca7d1a485",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/country_year_fe.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/country_year_fe.py",
+      "source_sha256": "92601d0310e81d749fb074b97b97a53eb9ea4ef8fbe3c8d7cecf58f1d16afda4",
+      "public_sha256": "4aa1ae5253e59c6a9e5990c153b426beade930ea3f46c7fbfa933fbaf9b0feb5",
+      "adaptations": [
+        "Correct input-availability note for the public source edition."
+      ],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/finite_sample_inference.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/finite_sample_inference.py",
+      "source_sha256": "8e3030e7537be2904752395985861fbffe2f8df725a6b90f040b3bff02cfba96",
+      "public_sha256": "5e1750ba863c0f66262cdf2034f93f6ea3403bcd8862f14f1e72aa6a7437a27f",
+      "adaptations": [
+        "Qualify local inference helper import for package execution."
+      ],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/gdi_case_analysis.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/gdi_case_analysis.py",
+      "source_sha256": "b964fc8e99bf598742c6441d497cf230aa02743c370e1ae927a4ff3843efe73d",
+      "public_sha256": "b964fc8e99bf598742c6441d497cf230aa02743c370e1ae927a4ff3843efe73d",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/__init__.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/__init__.py",
+      "source_sha256": "3475647069e35d7be59f259a80f23bcfa246bb79d856f6781e2d1dd0c86e4c37",
+      "public_sha256": "3475647069e35d7be59f259a80f23bcfa246bb79d856f6781e2d1dd0c86e4c37",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/fig01_per_model_home_effects.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/fig01_per_model_home_effects.py",
+      "source_sha256": "1759932ce7ea25f978da137a04366333f763bf347af0e2d6c42cbb7a021d4e6a",
+      "public_sha256": "1759932ce7ea25f978da137a04366333f763bf347af0e2d6c42cbb7a021d4e6a",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/figure_common.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/figure_common.py",
+      "source_sha256": "3e1b47e96ff7f970d23b665e186499dd7a19d3a01ecb825aa837e3a5155e3976",
+      "public_sha256": "3e1b47e96ff7f970d23b665e186499dd7a19d3a01ecb825aa837e3a5155e3976",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/figures/__init__.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/figures/__init__.py",
+      "source_sha256": "8e28a668a481626d67aee76b98b122719a0fe49cfcc6caaf7108d682f7c3d602",
+      "public_sha256": "8e28a668a481626d67aee76b98b122719a0fe49cfcc6caaf7108d682f7c3d602",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/peer_deviation.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/peer_deviation.py",
+      "source_sha256": "a4096ddac04c45ca48047c2ec35203775aeecb63f98cfabba6a29f2f9c411974",
+      "public_sha256": "a4096ddac04c45ca48047c2ec35203775aeecb63f98cfabba6a29f2f9c411974",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/grok43_swap/version_comparison.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/grok43_swap/version_comparison.py",
+      "source_sha256": "d0860fb9957246e45c2425a2e52dacb30a57b37150897237fc9da75d1d6591ba",
+      "public_sha256": "d0860fb9957246e45c2425a2e52dacb30a57b37150897237fc9da75d1d6591ba",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/inference_utils.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/inference_utils.py",
+      "source_sha256": "a668495a38aefe8e221ff121128a57444a688db7b70c158ed6a7a7fb7d90ebe3",
+      "public_sha256": "a668495a38aefe8e221ff121128a57444a688db7b70c158ed6a7a7fb7d90ebe3",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/model_jackknife.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/model_jackknife.py",
+      "source_sha256": "862f9d1581a07acd1fdb9573801b85dc9e065bbaed21795789942663c12a024b",
+      "public_sha256": "862f9d1581a07acd1fdb9573801b85dc9e065bbaed21795789942663c12a024b",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-origin-bias/analysis/paper_home_bias/run_2005_2024_available_case.py",
+      "source_path": "review-support/llm-origin-bias/analysis/paper_home_bias/run_2005_2024_available_case.py",
+      "source_sha256": "58f0553a9f55fa36c6ee9219358c02d9090a06ee2ae0fadd423e76da12240226",
+      "public_sha256": "58f0553a9f55fa36c6ee9219358c02d9090a06ee2ae0fadd423e76da12240226",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-political-risk-signals/experiments/wealth_stratified_yearly.py",
+      "source_path": "review-support/llm-political-risk-signals/experiments/wealth_stratified_yearly.py",
+      "source_sha256": "4e9875bc1aa52237d0682bdd95aad161c8cb68eb9daee06eb851acae0f9503ea",
+      "public_sha256": "43493d884bc80c676105488b35abbe28bd09cde3e7301b5356e3aac25810f9ae",
+      "adaptations": [
+        "Defer excluded assumptions file loading to main; allow an explicit environment path. Analysis formulas and legacy qualifications retained."
+      ],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/llm-political-risk-signals/experiments/wealth_stratified_yearly_full.py",
+      "source_path": "review-support/llm-political-risk-signals/experiments/wealth_stratified_yearly_full.py",
+      "source_sha256": "3af90f6a20f4823ff099d7fe6c28fb184e8d606cc28d02ded78fa40321b01d2e",
+      "public_sha256": "0522d75ecc865f48b5207a44fc93380e2db319dd43334aedce1d4869e5d19e18",
+      "adaptations": [
+        "Use an explicit local input location instead of a private sibling repository default; record its filename without an absolute personal path."
+      ],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/monthly-llm-risk-signals/analysis/methods_evidence/audit_event_provenance.py",
+      "source_path": "review-support/monthly-llm-risk-signals/analysis/methods_evidence/audit_event_provenance.py",
+      "source_sha256": "289456dbaa562e20960a2d3dc7593cc1d3959aab3c55ec7bb356d023d0975f9b",
+      "public_sha256": "289456dbaa562e20960a2d3dc7593cc1d3959aab3c55ec7bb356d023d0975f9b",
+      "adaptations": [],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "research-code/monthly-llm-risk-signals/analysis/methods_evidence/build_worked_extraction.py",
+      "source_path": "review-support/monthly-llm-risk-signals/analysis/methods_evidence/build_worked_extraction.py",
+      "source_sha256": "cc648bd26fba23400fe6cd70a34d279de1e1a80ce52f991ea62ae5ffc0051ba6",
+      "public_sha256": "a85135c48f62d6645934998dd3a8ea8a281eff7b1643a64d2b3c0ec4e226681a",
+      "adaptations": [
+        "Give an explicit missing-helper preflight message and require an explicit frozen prediction input instead of traversing private sibling repositories. Record its filename without the removed workspace root."
+      ],
+      "execution_scope": "source review; original-study inputs and empirical outputs excluded"
+    },
+    {
+      "path": "docs/stylesheets/reviewer.css",
+      "source_sha256": "9a5591ea9de569b710018b5e87737c07ec3655df0048b544fc1c5422d46f341f",
+      "public_sha256": "9a5591ea9de569b710018b5e87737c07ec3655df0048b544fc1c5422d46f341f",
+      "adaptations": []
+    },
+    {
+      "path": "overrides/404.html",
+      "source_sha256": "be291e167c5bf4e9730affab521237f32bc3008ba919218cc5b86b5f90d5972a",
+      "public_sha256": "be291e167c5bf4e9730affab521237f32bc3008ba919218cc5b86b5f90d5972a",
+      "adaptations": []
+    },
+    {
+      "path": "zensical.toml",
+      "source_sha256": "d28e9a6d900f6c1d19be64a903c4d746c4c6078ef0fdaf1f0123517644058a1b",
+      "public_sha256": "105a4bea82d07e81eb98c51fd00322a3d3ba2305a15dbe734037216f953c3e6b",
+      "adaptations": [
+        "Public site identity, URL, port and navigation labels."
+      ]
+    }
+  ]
+}

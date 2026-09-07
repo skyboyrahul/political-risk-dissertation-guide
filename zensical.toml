@@ -1,0 +1,74 @@
+[project]
+site_name = "Political Risk Dissertation Guide"
+site_url = "https://political-risk-dissertation-guide.rahulnundlall.chatgpt.site/"
+site_description = "Public methods and code for Rahul Nundlall's Wits MSc (Eng) dissertation in Artificial Intelligence Engineering."
+site_author = "Rahul Nundlall"
+copyright = "Rahul Nundlall · University of the Witwatersrand, Johannesburg · Documentation prepared with AI assistance."
+docs_dir = "docs"
+site_dir = "dist"
+dev_addr = "127.0.0.1:8744"
+extra_css = ["stylesheets/reviewer.css"]
+nav = [
+  { "Start here" = "index.md" },
+  { "Public access & data" = "reviewer-access.md" },
+  { "Research & repositories" = "research-map.md" },
+  { "Chapter 3 · Methods" = [
+    { "Reading route" = "methods.md" },
+    { "Established benchmarks" = "reference/established.md" },
+    { "Forecast timing" = "reference/strict-lag.md" },
+    { "Monthly signal pipeline" = "reference/monthly-pipeline.md" },
+    { "Wikipedia provenance" = "reference/wikipedia.md" },
+    { "Closed-book & hybrid lineage" = "reference/hybrid-lineage.md" },
+  ] },
+  { "Chapter 4 · Results" = [
+    { "Follow a result" = "results.md" },
+    { "Claim-to-evidence map" = "reference/claims.md" },
+    { "Wealth comparison" = "reference/wealth.md" },
+    { "Rater disagreement & origin" = "reference/origin.md" },
+  ] },
+  { "Chapter 5 · Interpretation" = [
+    { "Reading route" = "interpretation.md" },
+    { "Bounded checks & repeatability" = "reference/chapter5.md" },
+  ] },
+  { "Reproduce & trace" = [
+    { "Verification route" = "reproduce.md" },
+    { "Methods-to-results map" = "reference/central-map.md" },
+    { "Dissertation evidence guide" = "reference/thesis-map.md" },
+    { "Result authority" = "reference/authority.md" },
+    { "ARIMAX reproduction limitation" = "reference/arimax.md" },
+    { "Release provenance" = "source-revisions.md" },
+  ] },
+  { "Terminology & limits" = "terminology.md" },
+]
+
+[project.theme]
+custom_dir = "overrides"
+language = "en"
+font = false
+features = ["navigation.sections", "navigation.path", "navigation.top", "navigation.footer", "navigation.tracking", "content.code.copy", "search.highlight", "toc.follow"]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]

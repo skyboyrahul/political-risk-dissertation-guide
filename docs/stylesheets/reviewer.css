@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color: #183f68;
+  --md-accent-fg-color: #146e91;
+  --md-text-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --md-code-font: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+[data-md-color-scheme="slate"] { --md-accent-fg-color: #77c7e8; }
+.md-grid { max-width: 88rem; }
+.md-typeset { font-size: .85rem; line-height: 1.7; }
+.md-typeset h1 { color: var(--md-default-fg-color); font-weight: 650; letter-spacing: -.025em; }
+.md-typeset h2 { font-weight: 600; }
+.md-typeset table:not([class]) { font-size: .8rem; }
+.md-typeset table:not([class]) td { min-width: 9rem; }
+.md-typeset table:not([class]) code { overflow-wrap: anywhere; }
+.md-typeset .admonition, .md-typeset details { font-size: .8rem; }
+.md-typeset .research-context { border-left: .2rem solid #bc8d35; padding-left: 1.1rem; margin: 1.5rem 0; }
+.md-typeset a { text-underline-offset: .15em; }
+.md-typeset a:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 3px; }
+@media print { .md-typeset { font-size: 11pt; } .md-typeset table:not([class]) { font-size: 9pt; } }
