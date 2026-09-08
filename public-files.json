@@ -30,13 +30,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2914,
-      "sha256": "f3441113e25c908ffa3497e7715e39b919091bf10dcfb8829800d85bbaa93f91"
+      "bytes": 3616,
+      "sha256": "8285321aa0884b0d03b0fb6f2fee2769c55230519b36e6d1be9b212dc94d5aaa"
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "bytes": 12286,
-      "sha256": "3bff755fcbb1e23feb587897b7aa0d27a419f06b6bc1447f21c3a978e06303d4"
+      "bytes": 21760,
+      "sha256": "20d062796d9e8765a730db57b1af928abfc494aac312887d068f866f74108ca4"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -170,8 +170,8 @@
     },
     {
       "path": "research-code/README.md",
-      "bytes": 3315,
-      "sha256": "8bfaad4dbe507c5635428879426dac634d78af86e9fe63fcd8de4eaf2716f34b"
+      "bytes": 6234,
+      "sha256": "709d09be9dbed3722b74a535f835305d2fbf6751445f66b9d36fe0bcb8ee1893"
     },
     {
       "path": "research-code/llm-origin-bias/analysis/paper_home_bias/_vendor/__init__.py",
@@ -272,6 +272,86 @@
       "path": "research-code/monthly-llm-risk-signals/analysis/methods_evidence/build_worked_extraction.py",
       "bytes": 9117,
       "sha256": "a85135c48f62d6645934998dd3a8ea8a281eff7b1643a64d2b3c0ec4e226681a"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/coverage_difficulty/run_coverage_difficulty.py",
+      "bytes": 38986,
+      "sha256": "12ba87b956473c8a66de6e5f458cfa28dc5b9e48d1ab99965af3403d43a90b2c"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/decision_use/portfolio_risk_budget.py",
+      "bytes": 58643,
+      "sha256": "d83269160b1df68614cd0ba1b0deba8b64299f4c8ee0582b681164d30decc40b"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/decision_use/review_trigger_experiment.py",
+      "bytes": 23162,
+      "sha256": "0fcc9ced0bc9c6e93905db92251b46d3d3548e97a5d614a3233a789c1750ee7e"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/methods_evidence/build_anchor_ablation.py",
+      "bytes": 12543,
+      "sha256": "666e31e430365038773839b93acf45325ff32b8d2d797d2a864741d85442c990"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/ml_experiments/provenance.py",
+      "bytes": 4157,
+      "sha256": "aef6cd3b2e8ec2975fbe645ceeaedfa66962c0ed84f7cc2237765ea836860401"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/__init__.py",
+      "bytes": 63,
+      "sha256": "f40df51368ffea3226e18084777ca419f6821921770163de9831bedaa4999f9d"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/mechanism_analysis.py",
+      "bytes": 24247,
+      "sha256": "8dcb990b5c48ab5ff1892b80441f9e326ac84bfb43de0e811cd62f54fcbe0118"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/monthly_movement_context.py",
+      "bytes": 2205,
+      "sha256": "a2bfea46e6a5162770229607e79b365aefa67c9055b420a0f262e7123a98a2b1"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/plot_by_model.py",
+      "bytes": 13828,
+      "sha256": "3ceed0eb20a47d6f02dcdefcd8bc41645ec496ef804af872b9b388f08f57fb84"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/reanalyse.py",
+      "bytes": 8865,
+      "sha256": "337139630373082a7ba9bd61c5f973a08a54b1402ec682eec83b274594bc4786"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/verify.py",
+      "bytes": 932,
+      "sha256": "1b650be72d9233709c5f828b89af49d0ddb6a8c3ebb323c08bf54427749175a3"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/temporal_anticipation/run_anticipation_screen.py",
+      "bytes": 21969,
+      "sha256": "47ad284a2196955a8703ce44f342553730f9940ea68056d1fcc5ab131c9d2ab2"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figure_style.py",
+      "bytes": 4892,
+      "sha256": "40a9e4be54bd06fd89087ae445b710661bce6dcb0e73c4b1d9a19bd5a7ef4b9b"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figures/_common.py",
+      "bytes": 6966,
+      "sha256": "bce1179f0f36a25a748f0d63bd8c9c62ec71930beae82755146d08aa2a5e1390"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figures/n9_design_simulations.py",
+      "bytes": 10887,
+      "sha256": "11318e8ea5013d5a09ffa17b1fde49827ea842817f83cf3775f5cbdd82bbf274"
+    },
+    {
+      "path": "scripts/verify_appendix_source.py",
+      "bytes": 1601,
+      "sha256": "000d1be11e5fed3e12baf19d782cdbe7f4370a1c6200964c08237c731bbbf1e6"
     },
     {
       "path": "scripts/verify_public_release.py",

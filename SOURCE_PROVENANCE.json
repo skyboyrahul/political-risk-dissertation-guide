@@ -192,6 +192,158 @@
       "adaptations": [
         "Public site identity, URL, port and navigation labels."
       ]
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/decision_use/portfolio_risk_budget.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/decision_use/portfolio_risk_budget.py",
+      "source_sha256": "d83269160b1df68614cd0ba1b0deba8b64299f4c8ee0582b681164d30decc40b",
+      "public_sha256": "d83269160b1df68614cd0ba1b0deba8b64299f4c8ee0582b681164d30decc40b",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/decision_use/review_trigger_experiment.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/decision_use/review_trigger_experiment.py",
+      "source_sha256": "0fcc9ced0bc9c6e93905db92251b46d3d3548e97a5d614a3233a789c1750ee7e",
+      "public_sha256": "0fcc9ced0bc9c6e93905db92251b46d3d3548e97a5d614a3233a789c1750ee7e",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figures/n9_design_simulations.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/thesis_figures/n9_design_simulations.py",
+      "source_sha256": "11318e8ea5013d5a09ffa17b1fde49827ea842817f83cf3775f5cbdd82bbf274",
+      "public_sha256": "11318e8ea5013d5a09ffa17b1fde49827ea842817f83cf3775f5cbdd82bbf274",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figures/_common.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/thesis_figures/_common.py",
+      "source_sha256": "bce1179f0f36a25a748f0d63bd8c9c62ec71930beae82755146d08aa2a5e1390",
+      "public_sha256": "bce1179f0f36a25a748f0d63bd8c9c62ec71930beae82755146d08aa2a5e1390",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/thesis_figure_style.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/thesis_figure_style.py",
+      "source_sha256": "40a9e4be54bd06fd89087ae445b710661bce6dcb0e73c4b1d9a19bd5a7ef4b9b",
+      "public_sha256": "40a9e4be54bd06fd89087ae445b710661bce6dcb0e73c4b1d9a19bd5a7ef4b9b",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/ml_experiments/provenance.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/ml_experiments/provenance.py",
+      "source_sha256": "aef6cd3b2e8ec2975fbe645ceeaedfa66962c0ed84f7cc2237765ea836860401",
+      "public_sha256": "aef6cd3b2e8ec2975fbe645ceeaedfa66962c0ed84f7cc2237765ea836860401",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/methods_evidence/build_anchor_ablation.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/methods_evidence/build_anchor_ablation.py",
+      "source_sha256": "666e31e430365038773839b93acf45325ff32b8d2d797d2a864741d85442c990",
+      "public_sha256": "666e31e430365038773839b93acf45325ff32b8d2d797d2a864741d85442c990",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/temporal_anticipation/run_anticipation_screen.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/temporal_anticipation/run_anticipation_screen.py",
+      "source_sha256": "47ad284a2196955a8703ce44f342553730f9940ea68056d1fcc5ab131c9d2ab2",
+      "public_sha256": "47ad284a2196955a8703ce44f342553730f9940ea68056d1fcc5ab131c9d2ab2",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/coverage_difficulty/run_coverage_difficulty.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/coverage_difficulty/run_coverage_difficulty.py",
+      "source_sha256": "12ba87b956473c8a66de6e5f458cfa28dc5b9e48d1ab99965af3403d43a90b2c",
+      "public_sha256": "12ba87b956473c8a66de6e5f458cfa28dc5b9e48d1ab99965af3403d43a90b2c",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/__init__.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/__init__.py",
+      "source_sha256": "f40df51368ffea3226e18084777ca419f6821921770163de9831bedaa4999f9d",
+      "public_sha256": "f40df51368ffea3226e18084777ca419f6821921770163de9831bedaa4999f9d",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/mechanism_analysis.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/mechanism_analysis.py",
+      "source_sha256": "8dcb990b5c48ab5ff1892b80441f9e326ac84bfb43de0e811cd62f54fcbe0118",
+      "public_sha256": "8dcb990b5c48ab5ff1892b80441f9e326ac84bfb43de0e811cd62f54fcbe0118",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/monthly_movement_context.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/monthly_movement_context.py",
+      "source_sha256": "a2bfea46e6a5162770229607e79b365aefa67c9055b420a0f262e7123a98a2b1",
+      "public_sha256": "a2bfea46e6a5162770229607e79b365aefa67c9055b420a0f262e7123a98a2b1",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/plot_by_model.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/plot_by_model.py",
+      "source_sha256": "3ceed0eb20a47d6f02dcdefcd8bc41645ec496ef804af872b9b388f08f57fb84",
+      "public_sha256": "3ceed0eb20a47d6f02dcdefcd8bc41645ec496ef804af872b9b388f08f57fb84",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/reanalyse.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/reanalyse.py",
+      "source_sha256": "037fc3e2258f797d26f2eb9e7bb5dbff7d5dd4c4d3a098267c9acba35501cda3",
+      "public_sha256": "337139630373082a7ba9bd61c5f973a08a54b1402ec682eec83b274594bc4786",
+      "adaptations": [
+        "Correct repository-availability prose; empirical inputs are excluded."
+      ],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
+    },
+    {
+      "path": "research-code/prs-nowcast/analysis/repeat_generation/verify.py",
+      "source_repository": "prs-nowcast",
+      "source_commit": "65bc1ecc51afe4b82f2aa1e86b84002a3f85177d",
+      "source_path": "analysis/repeat_generation/verify.py",
+      "source_sha256": "1b650be72d9233709c5f828b89af49d0ddb6a8c3ebb323c08bf54427749175a3",
+      "public_sha256": "1b650be72d9233709c5f828b89af49d0ddb6a8c3ebb323c08bf54427749175a3",
+      "adaptations": [],
+      "execution_scope": "source inspection; empirical inputs and outputs excluded; see research-code/README.md for dependency boundaries"
     }
   ]
 }

@@ -51,3 +51,32 @@ Current path defaults refer to the local source layout. These files are availabl
 for method review, rather than a claim of self-contained empirical reproduction.
 The public synthetic check does not read the private research archive, call a
 model provider or use network access after dependencies are installed.
+
+## Additional appendix implementations
+
+`prs-nowcast/analysis/` contains the original decision-use, repeat-generation,
+anchor-ablation, coverage-difficulty, anticipation-screen and design-simulation
+implementations, plus selected plotting/provenance helpers. These are inspection
+sources for Chapters 3 to 5 and the appendices. They do not include observations,
+retained predictions, archived responses or empirical outputs. Original-study
+aggregate checks and case-selection constants remain labelled research context.
+
+| Appendix question | Source under `prs-nowcast/analysis/` | Execution boundary |
+|---|---|---|
+| Allocation-distance illustration | `decision_use/portfolio_risk_budget.py` | Requires the frozen panel and prediction JSON matching the recorded hashes. |
+| Review-trigger rule and penalties | `decision_use/review_trigger_experiment.py` | Requires the same inputs and original experiment-plan file. |
+| Repeat-generation comparisons | `repeat_generation/reanalyse.py`, `mechanism_analysis.py`, `monthly_movement_context.py`, `plot_by_model.py`, `verify.py` | Requires the original/repeated signal pairs and frozen comparison summaries; never calls a model provider. |
+| Screening design simulation | `thesis_figures/n9_design_simulations.py` | Requires the retained anticipation-screen JSON for its study-specific annotation. |
+| Anchor-only ablation | `methods_evidence/build_anchor_ablation.py` | Requires the licensed component panel, canonical predictions, scikit-learn and the bootstrap/inference helpers in the [nowcasting companion](https://github.com/skyboyrahul/political-risk-llm-nowcasting/tree/main/analysis/ml_experiments). Those helpers are linked rather than duplicated here. |
+| Coverage and country difficulty | `coverage_difficulty/run_coverage_difficulty.py` | Requires retained error summaries, event records and coverage metadata. Its empirical route can query Wikimedia pageviews; the public verification does not execute that route. |
+| Temporal anticipation screen | `temporal_anticipation/run_anticipation_screen.py` | Requires the canonical monthly signal archive. Event identities and dates specify the original research design; no signal observations are embedded. |
+
+NumPy, pandas, SciPy, Matplotlib and seaborn cover the additional import/helper check.
+Run `uv run --locked --group research python scripts/verify_appendix_source.py`
+from the guide root. It imports the available modules in a separate process,
+checks review-rule arithmetic and repeatability functions on fictional values,
+and parses the anchor-ablation producer without claiming its external helper
+imports are self-contained. It performs no empirical rerun, provider call or
+pageview request. If running original producers with authorised inputs, keep
+all generated outputs outside this public release. The provenance helper can
+record local runtime paths; those generated manifests are excluded too.

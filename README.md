@@ -6,6 +6,13 @@ Public methods and source companion for **Rahul Nundlall's MSc (Eng) dissertatio
 
 The dissertation examines monthly LLM readings of Wikipedia for same-year nowcasting of annual ICRG political-risk ratings. This repository provides the browsable chapter routes and selected supplementary analysis source. The two public science repositories are [LLM nowcasting](https://github.com/skyboyrahul/political-risk-llm-nowcasting) and [established baselines](https://github.com/skyboyrahul/political-risk-established-baselines).
 
+## Dissertation chapters
+
+- **Chapter 3 (Methods):** [methods route](docs/methods.md), [research map](docs/research-map.md) and links to the two implementation repositories.
+- **Chapter 4 (Results):** [results route](docs/results.md) and supplementary source under [`research-code/`](research-code/), including origin-bias and wealth analyses.
+- **Chapter 5 (Discussion):** [interpretation route](docs/interpretation.md) and [Chapter 5 reference](docs/reference/chapter5.md).
+- **Appendices:** [thesis map](docs/reference/thesis-map.md), [source revisions](docs/source-revisions.md) and [access boundaries](docs/reviewer-access.md) distinguish public implementation from restricted empirical records.
+
 ## Public release boundary
 
 This edition contains reviewed source and documentation. It excludes licensed observations, real prompt anchors, archived model responses, target-bearing output tables, empirical figure files and private input bundles. Synthetic demonstrations in the two science repositories exercise selected original routines and do not reproduce the dissertation's empirical results. See [public access and data](docs/reviewer-access.md) and [source provenance](docs/source-revisions.md).
